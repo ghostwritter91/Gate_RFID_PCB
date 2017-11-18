@@ -1,0 +1,18 @@
+*.xlsx
+*.project
+*.cproject
+*.hwconf
+datasheet/
+Packages/
+PCBS/lib
+wrksp/
+wrksp_em/.metadata/
+wrksp_em/EFM8SB2_SPI_Lib_Master/
+wrksp_em/STK3200_emlcd/
+wrksp_em/STK3200_emode/
+wrksp_em/peugeot_pilot/.settings/
+wrksp_em/peugeot_pilot/CMSIS/
+wrksp_em/peugeot_pilot/GNU ARM v4.8.3 - Debug/
+wrksp_em/peugeot_auto/.settings/
+wrksp_em/peugeot_auto/CMSIS/
+wrksp_em/peugeot_auto/GNU ARM v4.8.3 - Debug/
