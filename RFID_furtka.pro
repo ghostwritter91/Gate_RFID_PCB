@@ -1,4 +1,4 @@
-update=17.11.2017 23:51:47
+update=19.11.2017 16:26:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/moje/Projekty/KiCAD_lib/DevKits
+LibName31=C:/moje/Projekty/KiCAD_lib/MyRelays
+LibName32=C:/moje/Projekty/KiCAD_lib/MyLDOs
