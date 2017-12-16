@@ -49,12 +49,12 @@ $EndDescr
 $Comp
 L nodemcu-devkit-v1.0(ESP8266) U?
 U 1 1 5A0F7586
-P 4750 1500
-F 0 "U?" H 4750 1550 40  0000 C CNN
-F 1 "nodemcu-devkit-v1.0(ESP8266)" H 4800 2250 40  0000 C CNN
-F 2 "DevKits:nodemcu1.0" H 4750 600 60  0001 C CNN
-F 3 "" H 4750 2000 60  0001 C CNN
-	1    4750 1500
+P 7650 1500
+F 0 "U?" H 7650 1550 40  0000 C CNN
+F 1 "nodemcu-devkit-v1.0(ESP8266)" H 7700 2250 40  0000 C CNN
+F 2 "DevKits:nodemcu1.0" H 7650 600 60  0001 C CNN
+F 3 "" H 7650 2000 60  0001 C CNN
+	1    7650 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -71,23 +71,397 @@ $EndComp
 $Comp
 L TSC_RELAY SW?
 U 1 1 5A11942C
-P 8250 1300
-F 0 "SW?" H 8250 1500 40  0000 C CNN
-F 1 "TSC_RELAY" H 8250 1100 40  0000 C CNN
-F 2 "MyRelays:TSC-1XXX" H 8250 1000 60  0001 C CNN
-F 3 "" H 8325 1300 60  0001 C CNN
-	1    8250 1300
+P 2575 2575
+F 0 "SW?" H 2575 2775 40  0000 C CNN
+F 1 "TSC_RELAY" H 2575 2375 40  0000 C CNN
+F 2 "MyRelays:TSC-1XXX" H 2575 2275 60  0001 C CNN
+F 3 "" H 2650 2575 60  0001 C CNN
+	1    2575 2575
 	1    0    0    -1  
 $EndComp
 $Comp
 L LDF33DT-TR U?
 U 1 1 5A11A970
-P 9400 1700
-F 0 "U?" H 9375 2025 50  0000 L CNN
-F 1 "LDF33DT-TR" H 9175 1950 50  0000 L CNN
-F 2 "MyLDOs:DPAK" H 9400 1550 50  0001 L CNN
-F 3 "" H 9400 1850 50  0001 C CNN
-	1    9400 1700
+P 3150 1050
+F 0 "U?" H 3125 1375 50  0000 L CNN
+F 1 "LDF33DT-TR" H 2925 1300 50  0000 L CNN
+F 2 "MyLDOs:DPAK" H 3150 900 50  0001 L CNN
+F 3 "" H 3150 1200 50  0001 C CNN
+	1    3150 1050
 	1    0    0    -1  
 $EndComp
+$Comp
+L CP_Small C?
+U 1 1 5A207396
+P 8400 2700
+F 0 "C?" H 8410 2770 50  0000 L CNN
+F 1 "10uF/16V" H 8410 2620 50  0000 L CNN
+F 2 "MyRLC:C_1611" H 8400 2700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/40012/591d.pdf" H 8400 2700 50  0001 C CNN
+F 4 "591D106X9016B2T15H" H 8400 2700 60  0001 C CNN "manf#"
+	1    8400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C?
+U 1 1 5A207FD7
+P 9050 2700
+F 0 "C?" H 9060 2770 50  0000 L CNN
+F 1 "10uF/16V" H 9060 2620 50  0000 L CNN
+F 2 "MyRLC:C_1611" H 9050 2700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/40012/591d.pdf" H 9050 2700 50  0001 C CNN
+F 4 "591D106X9016B2T15H" H 9050 2700 60  0001 C CNN "manf#"
+	1    9050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 5A207FFE
+P 1450 950
+F 0 "F?" V 1530 950 50  0000 C CNN
+F 1 "2A" V 1375 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1380 950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28747/mfuserie.pdf" H 1450 950 50  0001 C CNN
+F 4 "MFU0805FF02000P100" V 1450 950 60  0001 C CNN "manf#"
+	1    1450 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A20818C
+P 7850 2800
+F 0 "C?" H 7860 2870 50  0000 L CNN
+F 1 "100nF/50V" H 7860 2720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7850 2800 50  0001 C CNN
+F 3 "http://lispol.com/produkt/kondensator-smd0805-100nf50v-x7r---kc100nf50vsmd0805" H 7850 2800 50  0001 C CNN
+	1    7850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GSD Q?
+U 1 1 5A2083FA
+P 3400 2475
+F 0 "Q?" V 3625 2425 50  0000 L CNN
+F 1 "SI2300DS" V 3725 2300 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3600 2575 50  0001 C CNN
+F 3 "" H 3400 2475 50  0001 C CNN
+	1    3400 2475
+	0    -1   1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5A240DF6
+P 2575 2100
+F 0 "D?" H 2575 2200 50  0000 C CNN
+F 1 "1n4148" H 2575 2000 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2575 2100 50  0001 C CNN
+F 3 "http://lispol.com/produkt/dioda-impulsowa-150ma100v---1n4148" H 2575 2100 50  0001 C CNN
+	1    2575 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J?
+U 1 1 5A2B11E3
+P 850 950
+F 0 "J?" H 850 1150 50  0000 C CNN
+F 1 "CONN_01X03" V 950 950 50  0000 C CNN
+F 2 "MyConnectors:KF141R-2.54-3P" H 850 950 50  0001 C CNN
+F 3 "https://www.maritex.com.pl/zlacza/listwy_zaciskowe/listwy_zaciskowe_zatrzaskowe_sprezynowe/listwy_zaciskowe_w_rastrze_2_54mm/tbz2543r-kf.html" H 850 950 50  0001 C CNN
+	1    850  950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A3533CA
+P 2600 1100
+F 0 "C?" H 2610 1170 50  0000 L CNN
+F 1 "100nF/50V" V 2500 800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2600 1100 50  0001 C CNN
+F 3 "http://lispol.com/produkt/kondensator-smd0805-100nf50v-x7r---kc100nf50vsmd0805" H 2600 1100 50  0001 C CNN
+	1    2600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C?
+U 1 1 5A35361A
+P 2300 1100
+F 0 "C?" H 2310 1170 50  0000 L CNN
+F 1 "10uF/16V" V 2200 850 50  0000 L CNN
+F 2 "MyRLC:C_1611" H 2300 1100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/40012/591d.pdf" H 2300 1100 50  0001 C CNN
+F 4 "591D106X9016B2T15H" H 2300 1100 60  0001 C CNN "manf#"
+	1    2300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 950  2600 1000
+Wire Wire Line
+	2000 950  2750 950 
+Wire Wire Line
+	2300 900  2300 1000
+Connection ~ 2600 950 
+$Comp
+L GND #PWR?
+U 1 1 5A3538D6
+P 2600 1450
+F 0 "#PWR?" H 2600 1200 50  0001 C CNN
+F 1 "GND" H 2600 1300 50  0000 C CNN
+F 2 "" H 2600 1450 50  0001 C CNN
+F 3 "" H 2600 1450 50  0001 C CNN
+	1    2600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A353912
+P 2300 1450
+F 0 "#PWR?" H 2300 1200 50  0001 C CNN
+F 1 "GND" H 2300 1300 50  0000 C CNN
+F 2 "" H 2300 1450 50  0001 C CNN
+F 3 "" H 2300 1450 50  0001 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1450 2600 1200
+Wire Wire Line
+	2300 1450 2300 1200
+$Comp
+L C_Small C?
+U 1 1 5A353970
+P 3700 1100
+F 0 "C?" H 3710 1170 50  0000 L CNN
+F 1 "100nF/50V" V 3600 800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3700 1100 50  0001 C CNN
+F 3 "http://lispol.com/produkt/kondensator-smd0805-100nf50v-x7r---kc100nf50vsmd0805" H 3700 1100 50  0001 C CNN
+	1    3700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C?
+U 1 1 5A353CE7
+P 4000 1100
+F 0 "C?" H 4010 1170 50  0000 L CNN
+F 1 "10uF/16V" V 3900 850 50  0000 L CNN
+F 2 "MyRLC:C_1611" H 4000 1100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/40012/591d.pdf" H 4000 1100 50  0001 C CNN
+F 4 "591D106X9016B2T15H" H 4000 1100 60  0001 C CNN "manf#"
+	1    4000 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1000 3700 950 
+Wire Wire Line
+	3550 950  4050 950 
+Wire Wire Line
+	4000 950  4000 1000
+Connection ~ 3700 950 
+$Comp
+L GND #PWR?
+U 1 1 5A353D6D
+P 3700 1450
+F 0 "#PWR?" H 3700 1200 50  0001 C CNN
+F 1 "GND" H 3700 1300 50  0000 C CNN
+F 2 "" H 3700 1450 50  0001 C CNN
+F 3 "" H 3700 1450 50  0001 C CNN
+	1    3700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A353DA8
+P 4000 1450
+F 0 "#PWR?" H 4000 1200 50  0001 C CNN
+F 1 "GND" H 4000 1300 50  0000 C CNN
+F 2 "" H 4000 1450 50  0001 C CNN
+F 3 "" H 4000 1450 50  0001 C CNN
+	1    4000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1450 4000 1200
+Wire Wire Line
+	3700 1450 3700 1200
+$Comp
+L GND #PWR?
+U 1 1 5A353E1C
+P 3150 1450
+F 0 "#PWR?" H 3150 1200 50  0001 C CNN
+F 1 "GND" H 3150 1300 50  0000 C CNN
+F 2 "" H 3150 1450 50  0001 C CNN
+F 3 "" H 3150 1450 50  0001 C CNN
+	1    3150 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1450 3150 1250
+$Comp
+L GND #PWR?
+U 1 1 5A3541B8
+P 1100 1450
+F 0 "#PWR?" H 1100 1200 50  0001 C CNN
+F 1 "GND" H 1100 1300 50  0000 C CNN
+F 2 "" H 1100 1450 50  0001 C CNN
+F 3 "" H 1100 1450 50  0001 C CNN
+	1    1100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1050 1100 1050
+Wire Wire Line
+	1100 1050 1100 1450
+Wire Wire Line
+	1050 850  1100 850 
+Text Label 1100 850  0    45   ~ 0
+relay
+Connection ~ 2300 950 
+Wire Wire Line
+	4050 950  4050 900 
+Connection ~ 4000 950 
+$Comp
+L +3V3 #PWR?
+U 1 1 5A354A44
+P 4050 900
+F 0 "#PWR?" H 4050 750 50  0001 C CNN
+F 1 "+3V3" H 4050 1040 50  0000 C CNN
+F 2 "" H 4050 900 50  0001 C CNN
+F 3 "" H 4050 900 50  0001 C CNN
+	1    4050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5A3553EB
+P 1850 950
+F 0 "D?" H 1850 1050 50  0000 C CNN
+F 1 "SS34" H 1850 850 50  0000 C CNN
+F 2 "MyDiodesSMD:DO-214AB" H 1850 950 50  0001 C CNN
+F 3 "http://lispol.com/produkt/dioda-schottky-3a40v-sma---ss34" H 1850 950 50  0001 C CNN
+	1    1850 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 950  1700 950 
+Wire Wire Line
+	1300 950  1050 950 
+$Comp
+L GND #PWR?
+U 1 1 5A3569D4
+P 2275 2750
+F 0 "#PWR?" H 2275 2500 50  0001 C CNN
+F 1 "GND" H 2275 2600 50  0000 C CNN
+F 2 "" H 2275 2750 50  0001 C CNN
+F 3 "" H 2275 2750 50  0001 C CNN
+	1    2275 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A356B3F
+P 2875 2750
+F 0 "#PWR?" H 2875 2500 50  0001 C CNN
+F 1 "GND" H 2875 2600 50  0000 C CNN
+F 2 "" H 2875 2750 50  0001 C CNN
+F 3 "" H 2875 2750 50  0001 C CNN
+	1    2875 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 2750 2875 2700
+Wire Wire Line
+	2875 2700 2825 2700
+Wire Wire Line
+	2275 2750 2275 2700
+Wire Wire Line
+	2275 2700 2325 2700
+$Comp
+L +12V #PWR?
+U 1 1 5A357020
+P 2300 900
+F 0 "#PWR?" H 2300 750 50  0001 C CNN
+F 1 "+12V" H 2300 1040 50  0000 C CNN
+F 2 "" H 2300 900 50  0001 C CNN
+F 3 "" H 2300 900 50  0001 C CNN
+	1    2300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A357523
+P 3750 2400
+F 0 "R?" H 3780 2420 50  0000 L CNN
+F 1 "330K" H 3780 2360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3750 2400 50  0001 C CNN
+F 3 "http://lispol.com/produkt/rezystor-330k-5-smd0805---r330ksmd0805" H 3750 2400 50  0001 C CNN
+	1    3750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A35759F
+P 4025 2200
+F 0 "R?" V 4175 2175 50  0000 L CNN
+F 1 "22R" V 4100 2125 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4025 2200 50  0001 C CNN
+F 3 "http://lispol.com/produkt/rezystor-22r-5-smd0603---r22rsmd0603" H 4025 2200 50  0001 C CNN
+	1    4025 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2275 2575 2325 2575
+Wire Wire Line
+	2275 2025 2275 2575
+Wire Wire Line
+	2275 2100 2425 2100
+NoConn ~ 2325 2450
+Wire Wire Line
+	2825 2575 3200 2575
+Wire Wire Line
+	2875 2575 2875 2100
+Wire Wire Line
+	2875 2100 2725 2100
+Wire Wire Line
+	2825 2450 2925 2450
+Text Label 2925 2450 0    45   ~ 0
+relay
+Connection ~ 2875 2575
+$Comp
+L GND #PWR?
+U 1 1 5A358504
+P 3750 2750
+F 0 "#PWR?" H 3750 2500 50  0001 C CNN
+F 1 "GND" H 3750 2600 50  0000 C CNN
+F 2 "" H 3750 2750 50  0001 C CNN
+F 3 "" H 3750 2750 50  0001 C CNN
+	1    3750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2575 3750 2575
+Wire Wire Line
+	3750 2500 3750 2750
+Connection ~ 3750 2575
+Wire Wire Line
+	3750 2300 3750 2200
+Wire Wire Line
+	3400 2200 3925 2200
+Wire Wire Line
+	3400 2200 3400 2275
+$Comp
+L +12V #PWR?
+U 1 1 5A358789
+P 2275 2025
+F 0 "#PWR?" H 2275 1875 50  0001 C CNN
+F 1 "+12V" H 2275 2165 50  0000 C CNN
+F 2 "" H 2275 2025 50  0001 C CNN
+F 3 "" H 2275 2025 50  0001 C CNN
+	1    2275 2025
+	1    0    0    -1  
+$EndComp
+Connection ~ 2275 2100
+Connection ~ 3750 2200
+Wire Wire Line
+	4125 2200 4250 2200
+Text Label 4250 2200 0    45   ~ 0
+open/close
 $EndSCHEMATC
