@@ -3,7 +3,7 @@
   (general
     (links 51)
     (no_connects 51)
-    (area 127.0531 74.916099 168.338601 136.564286)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -168,7 +168,7 @@
   )
 
   (module MyRLC:C_1611 (layer F.Cu) (tedit 5A2078AC) (tstamp 5A43CA61)
-    (at 138.2 103.25 90)
+    (at 138.2 103.4 90)
     (path /5A35361A)
     (fp_text reference C1 (at 0 -4 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
