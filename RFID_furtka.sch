@@ -266,7 +266,7 @@ U 1 1 5A3553EB
 P 2325 1500
 F 0 "D1" H 2325 1600 50  0000 C CNN
 F 1 "SS34" H 2325 1400 50  0000 C CNN
-F 2 "MyDiodesSMD:DO-214AB" H 2325 1500 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 2325 1500 50  0001 C CNN
 F 3 "http://lispol.com/produkt/dioda-schottky-3a40v-sma---ss34" H 2325 1500 50  0001 C CNN
 	1    2325 1500
 	-1   0    0    1   

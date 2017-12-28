@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/moje/Projekty/RFID_furtka/pcb/RFID_furtka.sch)
-    (date "27.12.2017 19:28:31")
+    (date "28.12.2017 19:10:53")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -102,7 +102,7 @@
       (tstamp 5A353CE7))
     (comp (ref D1)
       (value SS34)
-      (footprint MyDiodesSMD:DO-214AB)
+      (footprint Diodes_SMD:D_SMA_Handsoldering)
       (datasheet http://lispol.com/produkt/dioda-schottky-3a40v-sma---ss34)
       (libsource (lib device) (part D))
       (sheetpath (names /) (tstamps /))
@@ -322,10 +322,10 @@
       (uri C:\Programy\KiCad\share\kicad\library\device.lib))
     (library (logical conn)
       (uri C:\Programy\KiCad\share\kicad\library\conn.lib))
-    (library (logical DevKits)
-      (uri C:\moje\Projekty\KiCAD_lib\DevKits.lib))
     (library (logical MyRelays)
       (uri C:\moje\Projekty\KiCAD_lib\MyRelays.lib))
+    (library (logical DevKits)
+      (uri C:\moje\Projekty\KiCAD_lib\DevKits.lib))
     (library (logical MyLDOs)
       (uri C:\moje\Projekty\KiCAD_lib\MyLDOs.lib)))
   (nets
