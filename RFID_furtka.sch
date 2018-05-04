@@ -757,4 +757,8 @@ Text Label 6400 3275 0    45   ~ 0
 open/close
 Wire Wire Line
 	6400 3275 6225 3275
+Text Notes 6375 1375 0    50   ~ 0
+Relay:\n1A - out\n960 Ohm Coil resistance
+Text Notes 5200 2275 0    50   ~ 0
+Modification -> 12V on COM pins instead of GND
 $EndSCHEMATC
